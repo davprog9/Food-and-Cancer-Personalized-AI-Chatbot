@@ -34,7 +34,7 @@ This project is designed as a personalized AI assistant that integrates natural 
 #### Architecture
 The system follows a Retrieval-Augmented Generation (RAG) pipeline, combining embeddings with an LLM to provide contextually accurate responses. To increase the quality of best matching responses I added a **Reranker** function as well as **Bleu Score Evaluation**.
 
-![RAG Pipeline](Screenshots/RAG-Pipeline.jpeg)
+![RAG Pipeline](Screenshots/RAG Pipeline.jpeg)
 
 * **User Query** → User asks about food or ingredients.
 
@@ -60,13 +60,13 @@ For the vector database we used **Chroma** database.
 Qwen3-Reranker-0.6B reranker is used.
 
 Below is a test measurement of the reranker function
-![Reranker](Screenshots/Reranker-test.png)
+![Reranker](Screenshots/Reranker test.png)
 
 ## Usage
 These are some sample queries and conversation screenshots
 
-![Coffee](Screenshots/Coffee-query.png)
-![Skittles](Screenshots/Skittles-query.png)
+![Coffee](Screenshots/Coffee query.png)
+![Skittles](Screenshots/Skittles query.png)
 
 ## Future improvements
 
