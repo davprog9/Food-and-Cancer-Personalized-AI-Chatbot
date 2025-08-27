@@ -60,12 +60,16 @@ For the vector database we used **Chroma** database.
 Qwen3-Reranker-0.6B reranker is used.
 
 Below is a test measurement of the reranker function
+Query: "How does coffee affect our health ?"
+Top 3 results are scored from High to Low.
+
 ![Reranker](Screenshots/Reranker_test.png)
 
 ## Usage
 These are some sample queries and conversation screenshots
 
 ![Coffee](Screenshots/Coffee_query.png)
+
 ![Skittles](Screenshots/Skittles_query.png)
 
 ## Future improvements
